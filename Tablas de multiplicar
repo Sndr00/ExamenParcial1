@@ -1,0 +1,44 @@
+//Da las tablas de multiplicar (1-10) del numero que se ingresa
+
+#include <stdio.h>
+#include <math.h>
+
+int main (){
+int opc;
+
+	printf ("Tabla de multiplicar\n");
+	printf("\nIngrese el numero: ");
+	scanf("%d",&opc);
+	
+	printf("%d x 1 ", opc);
+	printf("= %d\n", opc*1);
+	
+	printf("%d x 2 ", opc);
+	printf("= %d\n", opc*2);
+	
+	printf("%d x 3 ", opc);
+	printf("= %d\n", opc*3);
+	
+	printf("%d x 4 ", opc);
+	printf("= %d\n", opc*4);
+	
+	printf("%d x 5 ", opc);
+	printf("= %d\n", opc*5);
+	
+	printf("%d x 6 ", opc);
+	printf("= %d\n", opc*6);
+	
+		printf("%d x 7 ", opc);
+	printf("= %d\n", opc*7);
+	
+		printf("%d x 8 ", opc);
+	printf("= %d\n", opc*8);
+	
+		printf("%d x 9 ", opc);
+	printf("= %d\n", opc*9);
+	
+		printf("%d x 10 ", opc);
+	printf("= %d\n", opc*10);
+	
+	return 0;
+}
