@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <math.h>
 
@@ -10,10 +9,7 @@ printf("Ingrese un numero: ");
 scanf("%d", &d); 
 
 }
-if (d%2==1)
-{printf("El numero negativo es: ", d);	}
-
-
+{printf("El numero negativo es: %d", d);	}
 
 return 0;
 }
