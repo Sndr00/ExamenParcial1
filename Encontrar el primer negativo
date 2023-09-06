@@ -4,9 +4,9 @@
 #include <math.h>
 
 int main (){
-int opc, d, cero=0, s=0;
+int d;
 
-while (0<d){
+while (0<=d){
 printf("Ingrese un numero: ");
 scanf("%d", &d); 
 
