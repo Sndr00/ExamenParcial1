@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main (){
+
+int cantidad,valores,cero=0, s=0;
+
+
+	printf("Ingrese la cantidad de numeros que desea sumar: ");
+	scanf("%d",&cantidad);
+
+while (cero<cantidad){
+    printf("Ingresar un numero: ");
+    scanf("%d",&valores);
+    
+  s=s+valores;
+  cero=cero+1;
+}
+
+printf("El resultado es: %d", s);
+
+	return 0;
+}
