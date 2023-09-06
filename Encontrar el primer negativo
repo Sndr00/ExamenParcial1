@@ -1,3 +1,5 @@
+//El programa se detiene cuando se ingresa un numero negativo
+
 #include <stdio.h>
 #include <math.h>
 
@@ -9,7 +11,7 @@ printf("Ingrese un numero: ");
 scanf("%d", &d); 
 
 }
-{printf("El numero negativo es: %d", d);	}
+printf("El numero negativo es: %d", d);
 
 return 0;
 }
