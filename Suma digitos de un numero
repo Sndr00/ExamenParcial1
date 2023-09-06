@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main (){
+
+int n;
+int s=0;
+
+printf("Ingrese un digito: ");
+scanf("%d", &n);
+
+while (n>0){
+    s=s+n%10;
+    n=n/10;
+}
+
+printf("El resultado es: %d", s+n);
+
+return 0;
+}
