@@ -28,16 +28,16 @@ int opc;
 	printf("%d x 6 ", opc);
 	printf("= %d\n", opc*6);
 	
-		printf("%d x 7 ", opc);
+	printf("%d x 7 ", opc);
 	printf("= %d\n", opc*7);
 	
-		printf("%d x 8 ", opc);
+	printf("%d x 8 ", opc);
 	printf("= %d\n", opc*8);
 	
-		printf("%d x 9 ", opc);
+	printf("%d x 9 ", opc);
 	printf("= %d\n", opc*9);
 	
-		printf("%d x 10 ", opc);
+	printf("%d x 10 ", opc);
 	printf("= %d\n", opc*10);
 	
 	return 0;
