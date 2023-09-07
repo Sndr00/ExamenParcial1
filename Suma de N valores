@@ -7,8 +7,9 @@ int main (){
 
 int a, opc, cero=0, s=0;
 
+printf("Suma de N valores\n");
 
-	printf("Ingrese la cantidad de numeros que desea sumar: ");
+	printf("\nIngrese la cantidad de numeros que desea sumar: ");
 	scanf("%d",&a);
 
 while (cero<a){
