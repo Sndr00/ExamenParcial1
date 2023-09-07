@@ -6,7 +6,8 @@ int main (){
 
 int opc, s=0;
 
-printf("Ingrese un numero: ");
+printf("Suma digitos de un numero\n");
+printf("\nIngrese un numero: ");
 scanf("%d", &opc);
 
 while (opc>0){
@@ -14,7 +15,7 @@ while (opc>0){
     opc=opc/10;
 }
 
-printf("La suma de los dígitos del numero es: %d", s+opc);
+printf("La suma de los digitos del numero es: %d", s+opc);
 
 return 0;
 }
