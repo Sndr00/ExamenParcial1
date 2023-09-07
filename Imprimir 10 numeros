@@ -6,7 +6,8 @@
 int main(){
 int opc;
 
-printf ("Ingrese un numero: ");
+printf ("Imprimir 10 numeros\n");
+printf ("\nIngrese un numero: ");
 scanf("%d",&opc);
 
 printf("%d\n", opc + 1);
